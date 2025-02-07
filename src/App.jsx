@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import About  from "./components/About";
+import Education from "./components/Education";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,6 +27,12 @@ function App() {
       <main>
         <section id="home">
           <Hero />
+        </section>
+        <section>
+          <About />
+        </section>
+        <section>
+          <Education />
         </section>
       </main>
     </div>

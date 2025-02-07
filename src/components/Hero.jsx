@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex justify-center items-center px-4 md:px-20 pt-60"
+      className="min-h-screen flex justify-center items-center px-4 md:px-20 pt-60 mb-30"
     >
       <div className="flex flex-col md:flex-row items-center gap-12 text-center md:text-left">
         {/* Left section with text */}
