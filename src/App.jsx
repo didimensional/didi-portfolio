@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About  from "./components/About";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,6 +34,9 @@ function App() {
         </section>
         <section>
           <Education />
+        </section>
+        <section>
+          <Contact />
         </section>
       </main>
     </div>

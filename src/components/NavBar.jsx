@@ -19,7 +19,7 @@ const NavBar = ({ isScrolled }) => {
         isScrolled ? "bg-gray-900/95 shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="max-w-full ml-10 mr-10 p-4 sm:p-6 lg:p-8 mt-10 sm:mt-10 lg:mt-10 border border-gray-300 rounded-[6px]">
+      <div className="max-w-full ml-10 mr-10 p-4 sm:p-4 lg:p-4 mt-10 sm:mt-10 lg:mt-10 border border-gray-300 rounded-[6px]">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="#" className="text-teal-400 font-bold text-xl">
