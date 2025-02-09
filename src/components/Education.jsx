@@ -25,14 +25,14 @@ import magento from "../assets/magento.svg";
 const Education = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <article className="flex flex-col justify-left md:text-left gap-8 mt-60">
+      <article className="flex flex-col justify-left md:text-left gap-4 mt-60">
         <div>
-          <h2 className="text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 text-center md:text-left">
+          <h2 className="sm:items-center text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent text-center md:text-left">
             Education
           </h2>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-start  mt-10">
+        <div className="flex flex-col sm:flex-col md:flex-row justify-center sm:justify-center md:justify-between items-center sm:items-center md:items-start mt-10 gap-8 md:gap-16">
           <div className="flex flex-col justify-center items-center text-center md:text-left max-w-xs ">
             <img
               src={blanquerna}
@@ -44,7 +44,7 @@ const Education = () => {
             </p>
           </div>
 
-          <div className="flex flex-col self-end justify-center items-center text-center md:text-left max-w-xs ">
+          <div className="flex flex-col md:self-end justify-center items-center text-center md:text-left max-w-xs ">
             <img
               src={reboot1}
               alt="LogoReboot1"
@@ -113,13 +113,25 @@ const Education = () => {
             <img src={mysql} alt="mysql" className="h-16 mx-auto md:mx-0" />
           </div>
           <div class="w-16 h-16  flex items-center justify-center rounded-full md:w-1/12">
-            <img src={wordpress} alt="wordpress" className="h-16 mx-auto md:mx-0" />
+            <img
+              src={wordpress}
+              alt="wordpress"
+              className="h-16 mx-auto md:mx-0"
+            />
           </div>
           <div class="w-16 h-16 flex items-center justify-center rounded-full md:w-1/12">
-            <img src={woocommerce} alt="woocommerce" className="h-16 mx-auto md:mx-0" />
+            <img
+              src={woocommerce}
+              alt="woocommerce"
+              className="h-16 mx-auto md:mx-0"
+            />
           </div>
           <div class="w-16 h-16  flex items-center justify-center rounded-full md:w-1/12">
-            <img src={prestashop} alt="prestashop" className="h-16 mx-auto md:mx-0" />
+            <img
+              src={prestashop}
+              alt="prestashop"
+              className="h-16 mx-auto md:mx-0"
+            />
           </div>
           <div class="w-16 h-16  flex items-center justify-center rounded-full md:w-1/12">
             <img src={magento} alt="magento" className="h-16 mx-auto md:mx-0" />

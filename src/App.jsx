@@ -5,6 +5,7 @@ import About  from "./components/About";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,22 +28,23 @@ function App() {
     >
       <NavBar isScrolled={isScrolled} />
       <main>
-        <section id="home">
+        <section id="home ">
           <Hero />
         </section>
-        <section>
+        <section id="about" className="scroll-mt-46">
           <About />
         </section>
-        <section>
+        <section id="education" className="scroll-mt-40">
           <Education />
         </section>
-        <section>
+        <section id="portfolio" className="scroll-mt-40">
           <Portfolio />
         </section>
-        <section>
+        <section id="contact">
           <Contact />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

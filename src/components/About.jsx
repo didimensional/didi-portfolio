@@ -6,14 +6,10 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-center text-center md:text-left">
         <div className="space-y-6">
           <div>
-            <h2 className="text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
+            <h2 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
               About Me
             </h2>
           </div>
-          <p className="text-gray-300 text-2xl font-medium leading-relaxed">
-            Hi! I’m Diana, a Spanish full-stack developer with a unique mix of
-            creativity and technical expertise.
-          </p>
           <p className="text-gray-300 leading-relaxed text-2xl font-medium ">
             I began my journey studying{" "}
             <span className="font-bold text-[#5D9FD8]">
@@ -51,11 +47,13 @@ const About = () => {
           </p>
         </div>
       </div>
-        <div className="mt-10">
-            <button className="px-6 py-3 bg-teal-500 font-medium text-white text-2xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2 font-medium">
-              Contact Me
-            </button>
-        </div>
+      <div className="mt-10 flex justify-center md:justify-start">
+        <a href="#contact">
+        <button className="px-6 py-3 bg-teal-500 text-white text-2xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2 font-medium">
+          Contact Me
+        </button>
+        </a>
+      </div>
     </div>
   );
 };

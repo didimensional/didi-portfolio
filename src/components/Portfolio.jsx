@@ -3,7 +3,9 @@ import { ExternalLink, Github } from "lucide-react";
 import milLeches from "../assets/milLeches.png";
 import MovieMinder from "../assets/MovieMinder.png";
 import Todos from "../assets/Todos.png";
+import todosVideo from "../assets/todosVideo.webm";
 import Guanxe from "../assets/Guanxe.png";
+import guanxeVideo from "../assets/guanxeVideo.webm"
 import CholasFighter from "../assets/CholasFighter.png";
 import Rebootnator from "../assets/Rebootnator.png";
 
@@ -17,7 +19,7 @@ const Portfolio = () => {
         "Petsitting website with owner and client roles, authentication, profile sections, forms...",
       liveUrl: "https://example.com",
       technologies: "NODE JS - REACT - JAVASCRIPT - MYSQL",
-      githubUrl: "https://github.com/username/project1",
+      githubUrl: "https://github.com/Gyomiel/mil-leches-web",
       image: milLeches,
     },
     {
@@ -27,7 +29,7 @@ const Portfolio = () => {
         "Movie tracker website with authentication, profile, search bar, movie sections...",
       technologies: "PHP - SYMFONY - TAILWIND CSS - MYSQL",
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/project2",
+      githubUrl: "https://github.com/markcrh/E-Commerce-Symfony-Project",
       image: MovieMinder,
     },
     {
@@ -36,8 +38,9 @@ const Portfolio = () => {
       description:
         "Bootcamp project to practise the interaction with DB models, controllers, routing views...",
       technologies: "PHP - SYMFONY - TAILWIND CSS - MYSQL",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/project2",
+      liveUrl: todosVideo,
+      githubUrl:
+        "https://github.com/didimensional/LAB-SYMFONY-6-Doctrine-ORM-Databases-and-Models",
       image: Todos,
     },
     {
@@ -46,8 +49,8 @@ const Portfolio = () => {
       description:
         "Prestashop project with personalized styling and a custom made module.",
       technologies: "PHP - PRESTASHOP",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/project2",
+      liveUrl: guanxeVideo,
+      githubUrl: "https://github.com/CobaltHeron/guanxe-project",
       image: Guanxe,
     },
     {
@@ -56,8 +59,8 @@ const Portfolio = () => {
       description:
         "Street fighter style game with different screens and scenarios.",
       technologies: "HTML - CSS - JAVASCRIPT",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/project2",
+      liveUrl: "https://karen-rms.github.io/Cholas-Fighter/",
+      githubUrl: "https://github.com/karen-rms/Cholas-Fighter",
       image: CholasFighter,
     },
     {
@@ -65,8 +68,8 @@ const Portfolio = () => {
       title: "Rebootnator",
       description: "Galaga style game purely made with HTML, CSS and JS.",
       technologies: "HTML - CSS - JAVASCRIPT",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/project2",
+      liveUrl: "https://didimensional.github.io/Rebootnator/",
+      githubUrl: "https://github.com/didimensional/Rebootnator",
       image: Rebootnator,
     },
   ];
@@ -74,7 +77,7 @@ const Portfolio = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-60">
       <div className="text-left mb-12">
-        <h2 className="text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
+        <h2 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
           Portfolio
         </h2>
       </div>
