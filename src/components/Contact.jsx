@@ -6,7 +6,7 @@ import { Mail,
 
 const Contact = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-80">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-30 md:mt-80">
       <div className="flex flex-col md:flex-col justify-center items-center text-center md:text-center">
         <div className="space-y-12">
           <div>

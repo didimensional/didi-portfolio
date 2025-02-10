@@ -25,7 +25,7 @@ import magento from "../assets/magento.svg";
 const Education = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <article className="flex flex-col justify-left md:text-left gap-4 mt-60">
+      <article className="flex flex-col justify-left md:text-left gap-4 mt-30 md:mt-60">
         <div>
           <h2 className="sm:items-center text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent text-center md:text-left">
             Education
