@@ -19,7 +19,7 @@ const NavBar = ({ isScrolled }) => {
         className={`max-w-full ml-10 mr-10 p-4 sm:p-4 lg:p-4 mt-10 sm:mt-10 lg:mt-10 border border-gray-300 rounded-[6px] ${
           isScrolled
             ? "bg-gradient-to-r from-[#02393c] to-[#00222b]"
-            : "bg-transparent"
+            : "bg-gradient-to-r from-[#02393c] to-[#00222b] md:bg-transparent"
         }`}
       >
         <div className="flex items-center justify-between h-16">
@@ -86,7 +86,7 @@ const NavBar = ({ isScrolled }) => {
             className={`md:hidden ${
               isScrolled
                 ? "bg-gradient-to-r from-[#02393c] to-[#00222b]"
-                : "bg-gradient-to-r from-[#02393c] to-[#00222b] md:bg-transparent"
+                : "bg-transparent"
             }`}
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
