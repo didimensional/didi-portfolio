@@ -86,7 +86,7 @@ const NavBar = ({ isScrolled }) => {
             className={`md:hidden ${
               isScrolled
                 ? "bg-gradient-to-r from-[#02393c] to-[#00222b]"
-                : "bg-transparent"
+                : "bg-gradient-to-r from-[#02393c] to-[#00222b] md:bg-transparent"
             }`}
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
