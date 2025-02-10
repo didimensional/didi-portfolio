@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="space-y-6">
           <div className="flex items-baseline gap-5 justify-center md:justify-start">
             <div className="flex-col self-end">
-              <h2 className="text-teal-400 text-base md:text-3xl font-mono mb-6 mt-20">
+              <h2 className="text-teal-400 text-sm md:text-3xl font-mono mb-6 mt-20">
                 Hi, my name is
               </h2>
               <h1 className="text-5xl md:text-7xl font-bold text-white">
