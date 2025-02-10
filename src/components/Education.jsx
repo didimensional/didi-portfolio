@@ -91,8 +91,7 @@ const Education = () => {
             />
           </div>
           <div class="w-16 h-16 flex items-center justify-center rounded-full md:w-1/12">
-            node
-            <img src={node} alt="node" className="h-18 ml-[-28px]" />
+            <img src={node} alt="node" className="h-18 ml-[-10px]" />
           </div>
           <div class="w-16 h-16 flex items-center justify-center rounded-full md:w-1/12">
             <img src={react} alt="react" className="h-16 mx-auto md:mx-0" />

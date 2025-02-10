@@ -34,13 +34,13 @@ function App() {
         <section id="about" className="scroll-mt-46">
           <About />
         </section>
-        <section id="education" className="scroll-mt-40">
+        <section id="education" className="scroll-mt-46">
           <Education />
         </section>
-        <section id="portfolio" className="scroll-mt-40">
+        <section id="portfolio" className="scroll-mt-50">
           <Portfolio />
         </section>
-        <section id="contact">
+        <section id="contact" className="scroll-mt-10">
           <Contact />
         </section>
       </main>

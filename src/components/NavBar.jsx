@@ -14,14 +14,14 @@ const NavBar = ({ isScrolled }) => {
   ];
 
   return (
-    <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-gradient-to-r from-[#02393c] to-[#010d19]"
-          : "bg-transparent"
-      }`}
-    >
-      <div className="max-w-full ml-10 mr-10 p-4 sm:p-4 lg:p-4 mt-10 sm:mt-10 lg:mt-10 border border-gray-300 rounded-[6px]">
+    <nav className="fixed w-full z-50 transition-all duration-300">
+      <div
+        className={`max-w-full ml-10 mr-10 p-4 sm:p-4 lg:p-4 mt-10 sm:mt-10 lg:mt-10 border border-gray-300 rounded-[6px] ${
+          isScrolled
+            ? "bg-gradient-to-r from-[#02393c] to-[#00222b]"
+            : "bg-transparent"
+        }`}
+      >
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="#" className="text-teal-400 font-bold text-xl">
@@ -82,13 +82,19 @@ const NavBar = ({ isScrolled }) => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden">
+          <div
+            className={`md:hidden ${
+              isScrolled
+                ? "bg-gradient-to-r from-[#02393c] to-[#00222b]"
+                : "bg-transparent"
+            }`}
+          >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-gray-300 hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium "
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
