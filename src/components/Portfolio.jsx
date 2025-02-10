@@ -1,8 +1,10 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 import milLeches from "../assets/milLeches.png";
+import milLechesVideo from "../assets/milLechesVideo.webm";
 import MovieMinder from "../assets/MovieMinder.png";
-import Todos from "../assets/Todos.png";
+import MovieMinderVideo from "../assets/MovieMinderVideo.webm";
+import todos from "../assets/Todos.png";
 import todosVideo from "../assets/todosVideo.webm";
 import Guanxe from "../assets/Guanxe.png";
 import guanxeVideo from "../assets/guanxeVideo.webm"
@@ -17,7 +19,7 @@ const Portfolio = () => {
       title: "Mil Leches",
       description:
         "Petsitting website with owner and client roles, authentication, profile sections, forms...",
-      liveUrl: "https://example.com",
+      liveUrl: milLechesVideo,
       technologies: "NODE JS - REACT - JAVASCRIPT - MYSQL",
       githubUrl: "https://github.com/Gyomiel/mil-leches-web",
       image: milLeches,
@@ -28,7 +30,7 @@ const Portfolio = () => {
       description:
         "Movie tracker website with authentication, profile, search bar, movie sections...",
       technologies: "PHP - SYMFONY - TAILWIND CSS - MYSQL",
-      liveUrl: "https://example.com",
+      liveUrl: MovieMinderVideo,
       githubUrl: "https://github.com/markcrh/E-Commerce-Symfony-Project",
       image: MovieMinder,
     },
@@ -41,7 +43,7 @@ const Portfolio = () => {
       liveUrl: todosVideo,
       githubUrl:
         "https://github.com/didimensional/LAB-SYMFONY-6-Doctrine-ORM-Databases-and-Models",
-      image: Todos,
+      image: todos,
     },
     {
       id: 4,
