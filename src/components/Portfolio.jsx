@@ -88,7 +88,7 @@ const Portfolio = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="border-2 border-[#BABABA] rounded-lg shadow-md overflow-hidden"
+            className="border-2 border-[#BABABA] rounded-lg shadow-md overflow-hidden hover:scale-105 transition-transform duration-200"
           >
             <img
               src={project.image}
@@ -113,7 +113,7 @@ const Portfolio = () => {
                   className="bg-teal-400 text-white font-bold hover:text-teal-600 flex items-center p-4 rounded-lg w-1/3"
                 >
                   <ExternalLink className="mr-2" />
-                 Demo
+                  Demo
                 </a>
                 <a
                   href={project.githubUrl}
