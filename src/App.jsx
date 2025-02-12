@@ -5,11 +5,14 @@ import About  from "./components/About";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"
+import CanvasCursor from "./components/CanvasCursor";
 
-function App() {
-  const [isScrolled, setIsScrolled] = useState(false);
-
+  
+  function App() {
+    const [isScrolled, setIsScrolled] = useState(false);
+    
+    
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -26,6 +29,8 @@ function App() {
         background: "linear-gradient(113deg, #02393c 0%, #010d19 100%)",
       }}
     >
+  
+      <CanvasCursor />
       <NavBar isScrolled={isScrolled} />
       <main>
         <section id="home ">
