@@ -44,20 +44,16 @@ const Hero = () => {
               <h2 className="text-teal-400 text-xl md:text-2xl 2xl:text-3xl font-mono mb-6 mt-20">
                 Hi, my name is
               </h2>
-              <h1 className="min-w-80 text-5xl md:text-6xl 2xl:text-7xl font-bold text-white">
+              <h1 className="min-w-76 text-[36px] md:text-6xl 2xl:text-7xl font-bold text-white">
                 Diana López
               </h1>
             </div>
             <div className="self-end">
-              <img
-                src={bubbles}
-                alt="Logo"
-                className="h-38  md:h-50 2xl:h-64"
-              />
+              <img src={bubbles} alt="Logo" className="h-36 md:h-50 2xl:h-64" />
             </div>
           </div>
-          <h2 className="text-3xl md:text-4xl 2xl:text-6xl font-light bg-gradient-to-r from-[#F9F9F9] to-[#14B8A6] bg-clip-text text-transparent font-mono ">
-            A Full-Stack Developer.
+          <h2 className="text-center text-3xl md:text-4xl md:text-left 2xl:text-6xl font-light bg-gradient-to-r from-[#F9F9F9] to-[#14B8A6] bg-clip-text text-transparent font-mono ">
+            A Full-Stack Developer. 
           </h2>
           <p className="text-center md:text-left text-gray-100 md:max-w-2xl 2xl:max-w-3xl leading-relaxed text-2xl md:text-xl 2xl:text-2xl font-medium">
             With experience in both{" "}
