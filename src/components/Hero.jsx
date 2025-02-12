@@ -71,7 +71,7 @@ const Hero = () => {
             <a href="#portfolio">
               <button className="px-6 py-3 bg-teal-500 text-white md:text-lg 2xl:text-xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2">
                 <Laptop size={25} />
-                {isMobile ? "Portfolio" : "Check out my portfolio"}
+                {isMobile ? "Check Portfolio" : "Check out my portfolio"}
               </button>
             </a>
             <a href="#about">
