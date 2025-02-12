@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="flex flex-col md:flex-col justify-center items-center text-center md:text-center">
         <div className="space-y-12">
           <div>
-            <h2 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
+            <h2 className="text-5xl 2xl:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
               Contact Me
             </h2>
           </div>

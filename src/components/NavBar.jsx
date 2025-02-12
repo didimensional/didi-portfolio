@@ -36,8 +36,8 @@ const NavBar = ({ isScrolled }) => {
                   href={link.href}
                   className={`${
                     link.label === "Contact"
-                      ? "text-white px-4 py-2 ztext-2xl font-medium rounded-[6px] border border-[#48D1CC] bg-[#14B8A6] flex-shrink-0"
-                      : "text-gray-300 hover:text-teal-400 px-3 py-2 rounded-md text-2xl font-medium transition-colors"
+                      ? "text-white px-4 py-2 md:text-xl 2xl:text-2xl font-medium rounded-[6px] border border-[#48D1CC] bg-[#14B8A6] flex-shrink-0"
+                      : "text-gray-300 hover:text-teal-400 px-3 py-2 rounded-md md:text-xl 2xl:text-2xl font-medium transition-colors"
                   }`}
                 >
                   {link.label}
@@ -49,9 +49,9 @@ const NavBar = ({ isScrolled }) => {
                   onClick={() => setSelectedLanguage("en")}
                   className={`${
                     selectedLanguage === "en"
-                      ? "text-teal-500 font-bold"
-                      : "text-gray-300"
-                  } hover:text-teal-400 transition-colors text-2xl font-medium`}
+                      ? "text-teal-500 font-bold md:text-xl 2xl:text-2xl"
+                      : "text-gray-300 md:text-xl 2xl:text-2xl"
+                  } hover:text-teal-400 transition-colors md:text-xl 2xl:text-2xl font-medium`}
                 >
                   EN
                 </a>
@@ -61,9 +61,9 @@ const NavBar = ({ isScrolled }) => {
                   onClick={() => setSelectedLanguage("es")}
                   className={`${
                     selectedLanguage === "es"
-                      ? "text-teal-500 font-bold"
-                      : "text-gray-300"
-                  } hover:text-teal-400 transition-colors text-2xl font-medium`}
+                      ? "text-teal-500 font-bold md:text-xl 2xl:text-2xl"
+                      : "text-gray-300 md:text-xl 2xl:text-2xl"
+                  } hover:text-teal-400 transition-colors md:text-xl 2xl:text-2xl font-medium`}
                 >
                   ES
                 </a>
