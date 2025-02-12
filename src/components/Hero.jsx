@@ -1,5 +1,6 @@
-import React from "react";
 import bubbles from "../assets/bubbleslaptop.png";
+import React, { useState, useEffect } from "react";
+
 import {
   Laptop,
   Mail,
@@ -12,6 +13,25 @@ import {
 } from "lucide-react";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <section
       id="home"
@@ -45,16 +65,16 @@ const Hero = () => {
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
             <a href="#portfolio">
-            <button className="px-6 py-3 bg-teal-500 text-white md:text-2xl text-xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2">
-              <Laptop size={25} />
-              Check out my portfolio
-            </button>
+              <button className="px-6 py-3 bg-teal-500 text-white md:text-2xl text-xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2">
+                <Laptop size={25} />
+                {isMobile ? "Portfolio" : "Check out my portfolio"}
+              </button>
             </a>
             <a href="#about">
-            <button className="px-6 py-3 border border-teal-500 md:text-2xl text-xl text-teal-500 rounded-lg hover:bg-teal-500/10 transition-colors flex items-center gap-2">
-              <Mail size={25} />
-              Find out more about me
-            </button>
+              <button className="px-6 py-3 border border-teal-500 md:text-2xl text-xl text-teal-500 rounded-lg hover:bg-teal-500/10 transition-colors flex items-center gap-2">
+                <Mail size={25} />
+                {isMobile ? "About me" : "Find out more about me"}
+              </button>
             </a>
           </div>
         </div>

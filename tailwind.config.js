@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Ensure all React files are covered
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'custom-nav':'920px'
+      }
+    },
   },
   plugins: [],
 };

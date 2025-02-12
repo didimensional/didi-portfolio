@@ -22,10 +22,12 @@ const Contact = () => {
           </p>
         </div>
         <div className="mt-2">
-          <button className="px-6 py-3 text-2xl text-teal-500 rounded-lg flex items-center gap-2 font-bold hover:scale-110 transition-transform duration-200">
-            <Mail size={20} />
-            didivergente@gmail.com
-          </button>
+          <a href="mailto:didivergente@gmail.com">
+            <button className="px-6 py-3 text-2xl text-teal-500 rounded-lg flex items-center gap-2 font-bold hover:scale-110 transition-transform duration-200">
+              <Mail size={20} />
+              didivergente@gmail.com
+            </button>
+          </a>
         </div>
         <div className="mt-2">
           <p className="px-6 py-3 text-2xl text-teal-500 rounded-lg flex items-center gap-2 font-bold">

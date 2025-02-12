@@ -110,7 +110,7 @@ const Portfolio = () => {
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-teal-400 text-white font-bold hover:text-teal-600 flex items-center p-4 rounded-lg w-1/3"
+                  className="bg-teal-400 text-white font-bold hover:text-teal-600 flex items-center p-4 rounded-lg md:w-1/3 sm:w-1/2 pl-6 pr-6"
                 >
                   <ExternalLink className="mr-2" />
                   Demo
@@ -119,9 +119,9 @@ const Portfolio = () => {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white border-2 p-4 rounded-lg font-bold  hover:text-teal-400 flex items-center w-1/3"
+                  className="text-white border-2 p-4 rounded-lg font-bold  hover:text-teal-400 flex items-center md:w-1/3 sm:w-1/2"
                 >
-                  <Github className="mr-2" />
+                  <Github className="mr-2 sm:" />
                   GitHub
                 </a>
               </div>

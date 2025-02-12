@@ -28,7 +28,7 @@ const NavBar = ({ isScrolled }) => {
               <img src={logo} alt="Logo" className="h-24" />
             </a>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navLinks.map((link) => (
                 <a
@@ -36,7 +36,7 @@ const NavBar = ({ isScrolled }) => {
                   href={link.href}
                   className={`${
                     link.label === "Contact"
-                      ? "text-white px-4 py-2 text-2xl font-medium rounded-[6px] border border-[#48D1CC] bg-[#14B8A6] flex-shrink-0"
+                      ? "text-white px-4 py-2 ztext-2xl font-medium rounded-[6px] border border-[#48D1CC] bg-[#14B8A6] flex-shrink-0"
                       : "text-gray-300 hover:text-teal-400 px-3 py-2 rounded-md text-2xl font-medium transition-colors"
                   }`}
                 >
@@ -71,7 +71,7 @@ const NavBar = ({ isScrolled }) => {
             </div>
           </div>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-300 hover:text-teal-400 focus:outline-none"
@@ -83,7 +83,7 @@ const NavBar = ({ isScrolled }) => {
 
         {isMenuOpen && (
           <div
-            className={`md:hidden ${
+            className={`lg:hidden ${
               isScrolled
                 ? "bg-gradient-to-r from-[#02393c] to-[#00222b]"
                 : "bg-transparent"
