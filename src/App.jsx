@@ -40,7 +40,7 @@ function App() {
         <section id="portfolio" className="scroll-mt-50">
           <Portfolio />
         </section>
-        <section id="contact" className="scroll-mt-44 md:scroll-mt-10">
+        <section id="contact" className="scroll-mt-44 2xl:scroll-mt-10">
           <Contact />
         </section>
       </main>

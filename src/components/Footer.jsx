@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-45 pb-10">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 2xl:mt-45 pb-10">
       <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-center border-1 border-white p-2 rounded-xl">
         <div>
           <h2 className="text-xl md:text-xl font-medium text-white">

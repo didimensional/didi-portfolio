@@ -8,13 +8,13 @@ const Contact = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-30 md:mt-80">
       <div className="flex flex-col md:flex-col justify-center items-center text-center md:text-center">
-        <div className="space-y-12">
+        <div className="space-y-12 md:space-y-6">
           <div>
             <h2 className="text-5xl 2xl:text-6xl font-extrabold bg-gradient-to-r from-[#F9F9F9] via-[#14B8A6] to-[#456D8F] bg-clip-text text-transparent mb-4 font-modo">
               Contact Me
             </h2>
           </div>
-          <p className="text-gray-300 text-2xl font-medium leading-relaxed">
+          <p className="text-gray-300 text-2xl md:text-xl 2xl:text-2xl font-medium leading-relaxed">
             I’m excited to be part of a dynamic team where I can bring my skills
             to the table while continuing to learn from others. I'm always
             looking for new opportunities to apply my expertise and grow
