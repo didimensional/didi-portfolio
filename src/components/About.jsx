@@ -18,7 +18,7 @@ const About = () => {
             where I also gained knowledge in design, marketing, advertising, and
             journalism as part of my Bachelor’s Degree.
           </p>
-          <p className="text-gray-300 leading-relaxed text-2xl md:text-xl 2xl:text-2xlfont-medium ">
+          <p className="text-gray-300 leading-relaxed text-2xl md:text-xl 2xl:text-2xl font-medium ">
             After finishing university, I set off on an adventure to Australia,
             where I spent 8 years traveling and working to save up for what
             truly excites me:{" "}
