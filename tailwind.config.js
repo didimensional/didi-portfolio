@@ -30,4 +30,11 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animated")],
+   purge: {
+    content: ['./src/**/*.{html,js,jsx,ts,tsx}'],
+    options: {
+      safelist: ['animate-fade-up'],
+    },
+  },
 };
+
