@@ -34,6 +34,7 @@ function App() {
         <section id="home">
           <AnimateOnScroll
             animationClass="translate-x-0"
+            className="md:animate-fade-up"
             duration="1000"
             easing="ease-out"
           >
@@ -43,6 +44,7 @@ function App() {
         <section id="about" className="scroll-mt-46">
           <AnimateOnScroll
             animationClass="animate-fade-up"
+            className="md:animate-fade-up"
             duration="1000"
             easing="ease-out"
           >
@@ -52,6 +54,7 @@ function App() {
         <section id="education" className="scroll-mt-46">
           <AnimateOnScroll
             animationClass="animate-fade-up"
+            className="md:animate-fade-up"
             duration="1000"
             easing="ease-out"
           >
@@ -61,6 +64,7 @@ function App() {
         <section id="portfolio" className="scroll-mt-50">
           <AnimateOnScroll
             animationClass="animate-fade-up"
+            className="md:animate-fade-up"
             duration="1000"
             easing="ease-out"
           >
@@ -70,6 +74,7 @@ function App() {
         <section id="contact" className="scroll-mt-44 2xl:scroll-mt-10">
           <AnimateOnScroll
             animationClass="animate-fade-up"
+            className="md:animate-fade-up"
             duration="1000"
             easing="ease-out"
           >
