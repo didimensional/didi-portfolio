@@ -10,6 +10,7 @@ import Guanxe from "../assets/Guanxe.png";
 import guanxeVideo from "../assets/guanxeVideo.webm"
 import CholasFighter from "../assets/CholasFighter.png";
 import Rebootnator from "../assets/Rebootnator.png";
+import sabrinaPulido from "../assets/sabrinaPulido.png";
 
 
 const Portfolio = () => {
@@ -73,6 +74,15 @@ const Portfolio = () => {
       liveUrl: "https://didimensional.github.io/Rebootnator/",
       githubUrl: "https://github.com/didimensional/Rebootnator",
       image: Rebootnator,
+    },
+    {
+      id: 7,
+      title: "Sabrina Pulido",
+      description: "Portfolio Wordpress website for a professional Chef.",
+      technologies: "WORDPRESS - CSS",
+      liveUrl: "https://sabrinapulido.free.nf/",
+      githubUrl: "https://sabrinapulido.free.nf/",
+      image: sabrinaPulido,
     },
   ];
 
