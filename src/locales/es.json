@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "greeting": "Hola, me llamo",
+    "role": "Desarrolladora Full-Stack.",
+    "description": "Con experiencia en front-end y back-end, mi amor por el diseño asegura que cada proyecto funcione bien y se vea genial. Estoy emocionada de seguir creciendo en el mundo de la programación.",
+    "portfolio": "Portafolio",
+    "portfolio_full": "Explora mi portafolio",
+    "about_me": "Sobre mí",
+    "about_full": "Descubre más sobre mí"
+  }
+}

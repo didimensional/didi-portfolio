@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "greeting": "Hi, my name is",
+    "role": "A Full-Stack Developer.",
+    "description": "With experience in both front-end and back-end, my love for design ensures every project works well and looks great. I'm excited to continue growing in the world of coding.",
+    "portfolio": "Portfolio",
+    "portfolio_full": "Check out my portfolio",
+    "about_me": "About me",
+    "about_full": "Find out more about me"
+  }
+}

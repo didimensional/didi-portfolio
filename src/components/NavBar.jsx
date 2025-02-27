@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import logo from "../assets/didilogo.png";
+import { useTranslation } from "react-i18next";
 
 const NavBar = ({ isScrolled }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState("en");
+  const { i18n } = useTranslation();
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
+
+    const handleLanguageChange = (lang) => {
+      i18n.changeLanguage(lang); // Update language using i18next
+      setSelectedLanguage(lang); // Update local state to reflect selected language
+    };
+
 
   const navLinks = [
     { href: "#home", label: "Home" },
@@ -46,7 +54,7 @@ const NavBar = ({ isScrolled }) => {
               <div className="flex items-center gap-2">
                 <a
                   href="#en"
-                  onClick={() => setSelectedLanguage("en")}
+                  onClick={() => handleLanguageChange("en")}
                   className={`${
                     selectedLanguage === "en"
                       ? "text-teal-500 font-bold md:text-xl 2xl:text-2xl"
@@ -58,7 +66,7 @@ const NavBar = ({ isScrolled }) => {
                 <span className="text-white text-2xl">/</span>
                 <a
                   href="#es"
-                  onClick={() => setSelectedLanguage("es")}
+                  onClick={() => handleLanguageChange("es")}
                   className={`${
                     selectedLanguage === "es"
                       ? "text-teal-500 font-bold md:text-xl 2xl:text-2xl"
@@ -103,7 +111,7 @@ const NavBar = ({ isScrolled }) => {
               <div className="flex items-center gap-2">
                 <a
                   href="#en"
-                  onClick={() => setSelectedLanguage("en")}
+                  onClick={() => handleLanguageChange("en")}
                   className={`${
                     selectedLanguage === "en"
                       ? "text-teal-500 font-bold"
@@ -115,7 +123,7 @@ const NavBar = ({ isScrolled }) => {
                 <span className="text-white">/</span>
                 <a
                   href="#es"
-                  onClick={() => setSelectedLanguage("es")}
+                  onClick={() => handleLanguageChange("es")}
                   className={`${
                     selectedLanguage === "es"
                       ? "text-teal-500 font-bold"
