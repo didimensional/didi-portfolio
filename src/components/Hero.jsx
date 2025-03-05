@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next"; // Import the useTranslation hook
+import { useTranslation } from "react-i18next";
 import bubbles from "../assets/bubbleslaptop.png";
 import { Laptop, Mail } from "lucide-react";
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
-  const { t } = useTranslation(); // Get the translation function
+  const { t } = useTranslation(); 
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="flex items-baseline justify-center md:justify-start">
             <div className="flex-col self-end min-w-1/3">
               <h2 className="animate-fade-down animate-once animate-duration-1000 animate-ease-linear overflow-hidden text-teal-400 text-xl md:text-2xl 2xl:text-3xl font-mono mb-6 mt-20">
-                {t("hero.greeting")} {/* Use t() to get translation */}
+                {t("hero.greeting")}
               </h2>
               <h1 className="animate-fade-down animate-once animate-duration-1000 animate-ease-linear min-w-76 text-[36px] md:text-6xl 2xl:text-7xl font-bold text-white">
                 Diana López
@@ -49,14 +49,14 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="animate-fade-right animate-once animate-duration-[1000ms] animate-delay-800 animate-ease-linear text-center text-3xl md:text-4xl md:text-left 2xl:text-6xl font-light bg-gradient-to-r from-[#F9F9F9] to-[#14B8A6] bg-clip-text text-transparent font-mono ">
-            {t("hero.role")} {/* Use t() for the role translation */}
+            {t("hero.role")}
           </h2>
-          <p className="animate-fade-up animate-once animate-duration-1000 animate-delay-1500 animate-ease-linear text-center md:text-left text-gray-100 md:max-w-2xl 2xl:max-w-3xl leading-relaxed text-2xl md:text-xl 2xl:text-2xl font-medium">
+          <p className="animate-fade-up animate-once animate-duration-1000 animate-delay-1500 animate-ease-linear text-justify md:text-justify text-gray-100 md:max-w-2xl 2xl:max-w-4xl leading-relaxed text-2xl md:text-xl 2xl:text-2xl font-medium">
             {t("hero.description")}
           </p>
           <div className="animate-fade-up animate-once animate-duration-1000 animate-delay-1500 animate-ease-linear flex gap-4 justify-center md:justify-start">
             <a href="#portfolio">
-              <button className="px-6 py-3 bg-teal-500 text-white md:text-lg 2xl:text-xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2">
+              <button className="px-8 py-3 bg-teal-500 text-white md:text-lg 2xl:text-xl rounded-lg hover:bg-teal-600 transition-colors flex items-center gap-2 md:min-w-[295.344px] md:justify-center">
                 <Laptop size={25} />
                 {isMobile ? t("hero.portfolio") : t("hero.portfolio_full")}
               </button>

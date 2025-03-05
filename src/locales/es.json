@@ -7,5 +7,28 @@
     "portfolio_full": "Explora mi portafolio",
     "about_me": "Sobre mí",
     "about_full": "Descubre más sobre mí"
+  },
+  "navBar": {
+    "home": "Home",
+    "about": "Sobre mi",
+    "education": "Educación",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "p1": "Comencé mi viaje estudiando ",
+    "b1": "Comunicación Audiovisual",
+    "p2": "donde también adquirí conocimientos en diseño, marketing, publicidad y periodismo como parte de mis estudios universitarios.",
+    "p3": "Después de terminar la universidad, me embarqué en una aventura hacia Australia, donde pasé 8 años viajando y trabajando para ahorrar y volver a estudiar lo que realmente me apasiona:  ",
+    "b2": "Programación y Desarrollo Web",
+    "p4": "Durante el tiempo que pasé en Australia, gané una experiencia invaluable en atención al cliente, comercio y ventas, lo que me ha permitido mejorar mis habilidades comunicativas y comprender de manera más profunda las necesidades de los clientes.",
+    "p5": "En 2024, di el salto a la programación, completando un ",
+    "b3": "Bootcamp de Desarrollo Full-Stack",
+    "p6": ". Para complementar esta base, también realicé un Bootcamp especializado en ",
+    "b4": "E-Commerce",
+    "p7": " lo que mejoró mis habilidades de desarrollo y añadió un enfoque especializado en la creación de soluciones de comercio electrónico.",
+    "p8":"Ahora, como desarrolladora full-stack, combino mi formación creativa con la resolución de problemas para crear soluciones digitales impactantes, centradas en el usuario, que sean tanto funcionales como atractivas.",
+    "contact":"Contáctame"
   }
 }

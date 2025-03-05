@@ -2,10 +2,33 @@
   "hero": {
     "greeting": "Hi, my name is",
     "role": "A Full-Stack Developer.",
-    "description": "With experience in both front-end and back-end, my love for design ensures every project works well and looks great. I'm excited to continue growing in the world of coding.",
+    "description": "With experience in both front-end and back-end, my love for design ensures every project works well and looks great. I'm excited to continue growing in the world of coding and web development.",
     "portfolio": "Portfolio",
     "portfolio_full": "Check out my portfolio",
     "about_me": "About me",
     "about_full": "Find out more about me"
+  },
+  "navBar": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I began my journey studying ",
+    "b1": "Audiovisual Communication",
+    "p2": "where I also gained knowledge in design, marketing, advertising, and journalism as part of my Bachelor’s Degree.",
+    "p3": "After finishing university, I set off on an adventure to Australia, where I spent 8 years traveling and working to save up for what truly excites me: ",
+    "b2": "Technology and Web Development",
+    "p4": "During my time in Australia, I gained valuable experience in customer service, retail, and sales, strengthening my communication skills and helping me understand client needs on a deeper level.",
+    "p5": "In 2024, I made the leap into tech, completing a ",
+    "b3": "Full-Stack Development Bootcamp",
+    "p6": ". To complement this foundation, I also completed a Bootcamp specializing in ",
+    "b4": "E-Commerce",
+    "p7": " which enhanced my development skills and added a specialized focus on building e-commerce solutions and open-source projects.",
+    "p8":"Now, as a full-stack developer, I combine my creative background with problem-solving build impactful, user-centered digital solutions that are both functional and engaging.",
+    "contact":"Contact Me"
   }
 }

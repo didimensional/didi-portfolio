@@ -6,19 +6,20 @@ const NavBar = ({ isScrolled }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
+  const { t } = useTranslation(); 
 
     const handleLanguageChange = (lang) => {
-      i18n.changeLanguage(lang); // Update language using i18next
-      setSelectedLanguage(lang); // Update local state to reflect selected language
+      i18n.changeLanguage(lang); 
+      setSelectedLanguage(lang); 
     };
 
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#education", label: "Education" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#contact", label: "Contact" },
+    { href: "#home", label: t("navBar.home") },
+    { href: "#about", label: t("navBar.about") },
+    { href: "#education", label: t("navBar.education") },
+    { href: "#portfolio", label: t("navBar.portfolio") },
+    { href: "#contact", label: t("navBar.contact") },
   ];
 
   return (
@@ -43,7 +44,7 @@ const NavBar = ({ isScrolled }) => {
                   key={link.href}
                   href={link.href}
                   className={`${
-                    link.label === "Contact"
+                    link.label === "Contact" || link.label ==="Contacto"
                       ? "text-white px-4 py-2 md:text-xl 2xl:text-2xl font-medium rounded-[6px] border border-[#48D1CC] bg-[#14B8A6] flex-shrink-0"
                       : "text-gray-300 hover:text-teal-400 px-3 py-2 rounded-md md:text-xl 2xl:text-2xl font-medium transition-colors"
                   }`}
